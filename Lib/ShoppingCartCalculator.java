@@ -20,7 +20,6 @@ public class ShoppingCartCalculator {
             return 0.0;
 
         for(CartItem item : items){
-
             if(item.sku().equals("NORMAL")){//คำนวณราคาปกติ
                 if(item.name().equals("Bread"))
                     pay1 += item.price() * item.quantity();
